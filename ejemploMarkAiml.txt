@@ -1,0 +1,44 @@
+[XML]
+[AIML]
+
+[<->]
+[>>]Hola * soy *
+[<<]Hola [2], soy [1]. Un gusto.
+[]
+
+[<->]
+[>>]Piensa en algo
+[<<] Vale [/] Pensando en algo
+[]
+
+[<->]
+[>>]Sabes JavaScript
+[<<] Si [>JS:] window.open("https://www.google.es") ;
+[]
+
+[<->]
+[>>]Mas flojo
+[<<] [Aa] Vale
+[]
+
+[<->]
+[>>]Mas fuerte
+[<<] [aA] Vale
+[]
+
+[<->]
+[>>]Dime algo aleatorio
+[<<] [?] [--] 1 [@] [--] 2 [@] [--] 3 [@]
+[]
+
+[<->]
+[>>]Me llamo *
+[<<] Ok, me acordare que eres [|#|] [1]
+[]
+
+[<->]
+[>>] Funciona
+[<<] Si
+[]
+
+[END]

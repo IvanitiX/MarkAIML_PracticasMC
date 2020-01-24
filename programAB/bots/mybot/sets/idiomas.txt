@@ -1,0 +1,14 @@
+espanol
+ingles
+ruso
+frances
+esloveno
+italiano
+aleman
+chino
+japones
+portugues
+nerlandes
+suomi
+indonesio
+polaco

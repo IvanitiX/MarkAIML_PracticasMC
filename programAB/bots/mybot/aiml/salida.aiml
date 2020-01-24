@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="2.0">
+
+<category>
+<pattern>Hola * soy *</pattern>
+
+<template>Hola <star index = "2"/>, soy <star index = "1"/>. Un gusto.</template>
+
+</category>
+
+
+<category>
+<pattern>Piensa en algo</pattern>
+
+<template> Vale <think> Pensando en algo</think></template>
+
+</category>
+
+
+<category>
+<pattern>Sabes JavaScript</pattern>
+
+<template> Si <javascript> window.open("https://www.google.es") ;</javascript></template>
+
+</category>
+
+
+<category>
+<pattern>Mas flojo</pattern>
+
+<template> <lowercase> Vale</lowercase></template>
+
+</category>
+
+
+<category>
+<pattern>Mas fuerte</pattern>
+
+<template> <uppercase> Vale</uppercase></template>
+
+</category>
+
+
+<category>
+<pattern>Dime algo aleatorio</pattern>
+
+<template> <random> <li> 1 </li> <li> 2 </li> <li> 3 </li></random></template>
+
+</category>
+
+
+<category>
+<pattern>Me llamo *</pattern>
+
+<template> Ok, me acordare que eres <learn> <star index = "1"/></learn></template>
+
+</category>
+
+
+<category>
+<pattern> Funciona</pattern>
+
+<template> Si</template>
+
+</category>
+
+
+</aiml>
